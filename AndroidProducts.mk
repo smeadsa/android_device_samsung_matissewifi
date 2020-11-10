@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_matissewifi.mk
+    $(LOCAL_DIR)/rr_matissewifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_matissewifi-user \
-    lineage_matissewifi-userdebug \
-    lineage_matissewifi-eng
+    rr_matissewifi-user \
+    rr_matissewifi-userdebug \
+    rr_matissewifi-eng

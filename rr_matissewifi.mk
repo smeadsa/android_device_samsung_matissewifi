@@ -15,10 +15,10 @@
 # limitations under the License.
 #
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# Inherit some common Resurrection Remix stuff.
+$(call inherit-product, vendor/rr/config/common_full_tablet_wifionly.mk)
 
 $(call inherit-product, device/samsung/matissewifi/full_matissewifi.mk)
 
 PRODUCT_DEVICE := matissewifi
-PRODUCT_NAME := lineage_matissewifi
+PRODUCT_NAME := rr_matissewifi
